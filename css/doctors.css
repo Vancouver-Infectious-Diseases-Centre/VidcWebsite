@@ -1,309 +1,116 @@
-/*
- * Styles from:
- * http://preview.themeforest.net/item/medicalpress-health-and-medical-wordpress-theme/full_screen_preview/7789703
- */
-
 /*------------------------------------------------------*/
 /* Doctors Page styles
 /*------------------------------------------------------*/
-.doctors-posts {
-    padding-top: 40px;
-    padding-bottom: 60px;
-}
-.doctors-posts .text-left {
-    text-align: left;
-}
-.doctors-posts .common-doctor {
-    background-color: #fff;
-    margin-bottom: 40px;
-}
-.doctors-posts .common-doctor figure {
-    overflow: hidden;
-}
-.doctors-posts .common-doctor h5 {
-    margin: 0 0 20px;
-}
-.doctors-posts .common-doctor .text-content {
-    padding: 20px 20px 20px;
-}
-.doctors-posts .common-doctor .for-border {
-    margin-bottom: 20px;
-}
-.doctors-posts .common-doctor p {
-    margin-bottom: 20px;
-}
-.doctors-posts .social-icon {
-    margin: 20px 0 0;
-}
-.doctors-posts .social-icon ul {
-    margin: 0 auto;
-    margin-left: -3px;
-    text-align: center;
-}
-.doctors-posts .social-icon ul li {
-    display: inline-block;
-    list-style: none;
-    background-color: #dcdee4;
-    float: none;
-    margin: 0 5px 5px 0;
-}
-.doctors-posts .social-icon ul li a {
-    width: 36px;
-    height: 36px;
-    display: inline-block;
-}
-.doctors-posts .social-icon ul li .fa {
-    font-size: 18px;
-    color: #fff;
-    display: block;
-    text-align: center;
-    line-height: 36px;
-}
-.doctors-posts .social-icon ul li:hover {
-    background-color: #66c9e0;
-    transition: all 0.3s ease;
-}
-.doctors-posts .social-icon ul li.twitter-icon:hover {
-    background-color: #55acee;
-}
-.doctors-posts .social-icon ul li.skype-icon:hover {
-    background-color: #009EE5;
-}
-.doctors-posts .social-icon ul li.facebook-icon:hover {
-    background-color: #425E9A;
-}
-.doctors-posts .social-icon ul li.google-icon:hover {
-    background-color: #d63b3b;
-}
-.doctors-posts .social-icon ul li.youtube-icon:hover {
-    background-color: #d02525;
-}
-.doctors-posts .social-icon ul li.linkedin-icon:hover {
-    background-color: #0077B5;
-}
-div.doctor-departments {
-    margin: 0 0 20px;
-}
-div.doctor-departments a {
-    font-size: 14px;
-    font-weight: 400;
-    color: #67c9e0;
-    display: inline-block;
-}
-div.doctor-departments a:hover {
-    color: #52b2c9;
-}
-.doctors-single {
-    margin-bottom: 60px;
-}
-.doctors-single h1.entry-title {
-    font-size: 30px;
-    line-height: 36px;
-}
-.doctors-single .entry-meta {
-    background-color: #fff;
-    margin-bottom: 40px;
-}
-.doctors-single .entry-meta figure {
-    margin: 0;
-    margin-bottom: 25px;
-}
-.doctors-single .entry-meta h5 {
-    margin: 0 25px 10px 25px;
-}
-.doctors-single .entry-meta div.doctor-departments {
-    margin: 0 25px 30px;
-}
-.doctors-single .doc-schedule {
-    background-color: #f8fbfc;
-    padding: 30px 25px 10px;
-    border-top: 1px solid #eff2f3;
-}
-.doctors-single .doc-schedule p {
-    margin-bottom: 25px;
-    color: #3a3c41;
-    display: block;
-}
-.doctors-single .doc-schedule p strong {
-    margin-right: 5%;
-    color: #3a3c41;
-    min-width: 25%;
-    display: inline-block;
-}
-.doctors-single .doc-schedule p span {
-    overflow: hidden;
-    width: 70%;
-}
-.doctors-single .social-icon {
-    border-top: 1px solid #eff2f3;
-    padding: 20px 0;
-    margin: 0;
-    background-color: #f8fbfc;
-}
-.doctors-single .social-icon .doc-social-nav {
-    margin: 0 25px;
-    text-align: left;
-}
-.doctors-single .side-content {
-    border-bottom: 1px solid #dcdee4;
-}
-.doctors-single .side-content h3 {
-    font-weight: 400;
-    margin-bottom: 30px;
-    line-height: 30px;
-}
-.doctors-single .side-content h3 span {
-    font-size: 24px;
-}
-.doctors-single .side-content strong {
-    font-size: 14px;
-    font-weight: 700;
-    margin-right: 15px;
-    display: inline-block;
-    float: left;
-    line-height: 24px;
-}
-.doctors-single .side-content .content strong {
-    width: 13%;
-}
-.doctors-single .side-content .content p {
-    width: 85%;
-    float: right;
-}
-.doctors-single .top-area {
-    border-bottom: 2px solid #dcdee4;
-    margin-bottom: 25px;
-}
-#related-doctors-title {
-    margin: 0 0 30px;
-}
-.doctors-shortcode .hidden-sm {
-    margin-bottom: 50px;
-}
-.doctors-shortcode .common-doctor {
-    background-color: #fff;
-}
-.doctors-shortcode .common-doctor .text-content {
-    padding: 0 15px 0;
-}
-.doctor-shortcode-post {
-    padding: 0;
-}
-.doctor-shortcode-post .common-doctor {
-    margin-bottom: 20px;
-}
-.doctor-shortcode-post .common-doctor figure {
-    margin-bottom: 0;
-}
-.doctor-shortcode-post.style-vertical {
-    margin-top: 5px;
-}
-@media (min-width: 567px) {
-    .doctor-shortcode-post.style-vertical {
-        width: 40%;
-    }
-}
-@media (min-width: 768px) {
-    .doctor-shortcode-post.style-vertical {
-        width: 50%;
-    }
-}
-@media (min-width: 992px) {
-    .doctor-shortcode-post.style-vertical {
-        width: 41%;
-    }
-}
-@media (min-width: 767px) {
-    .doctor-shortcode-post.style-horizontal {
-        width: 100%;
-    }
-}
-.style-horizontal .for-border {
-    height: 1px;
-    background: #dcdee4;
-}
-@media (min-width: 767px) {
-    .style-horizontal .text-content ul {
-        text-align: inherit;
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .style-horizontal.left .text-content {
-        padding-left: 0;
-        text-align: left;
-    }
-    .style-horizontal.right .text-content {
-        padding-right: 0;
-        text-align: right;
-    }
-}
-/*------------------------------------------------------*/
-/* Isotope Filtering
-/*------------------------------------------------------*/
-.isotope-item {
-    z-index: 2;
-}
-.isotope-hidden.isotope-item {
-    pointer-events: none;
-    z-index: 1;
-}
-/*------------------------------------------------------*/
-/* Isotope CSS3 transitions
-/*------------------------------------------------------*/
-.isotope,
-.isotope .isotope-item {
-    transition-duration: 0.8s;
-}
-.isotope {
-    transition-property: height, width;
-}
-.isotope .isotope-item {
-    transition-property: opacity, -webkit-transform;
-    transition-property: transform, opacity;
-    transition-property: transform, opacity, -webkit-transform;
+
+.doctorContainer {
+    margin-top: 90px;
 }
 
+.doctorColumn {
+    margin-bottom: 25px;
+}
+
+.doctorProfileText {
+    background-color: #F0F5F7;
+    padding: 20px 15px 20px;
+}
+
+.doctorProfileImg {
+    width: 100%;
+    object-fit: fill;
+}
+
+.doctorName {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.doctorName:hover {
+    color: #f15b5a;
+    text-decoration: none;
+}
+
+.doctorSpecialties a {
+    font-size: 15px;
+}
+
+.doctorBiography {
+    display: -webkit-box;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.doctorQuote {
+    font-size: 11px;
+    font-style: italic;
+    color: #787878;
+}
+
+.read-more {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #67c9e0;
+    border-radius: 0;
+}
+
+.read-more:hover {
+    color: white;
+    background-color: #f15b5a;
+}
+
+hr {
+    border: 0;
+    border-top: 3px double #8c8c8c;
+}
+
+
 /*------------------------------------------------------*/
-/*  Home Team Styles
+/* Fade In styles
 /*------------------------------------------------------*/
-.home-doctors {
+
+.doctorFade {
+    margin-top: 25px;
+    font-size: 21px;
     text-align: center;
-    padding: 70px 0 40px;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
 }
-.home-doctors .doctor-wrapper {
-    margin-bottom: 40px;
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
-.home-doctors .common-doctor {
-    background-color: #fff;
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
-.home-doctors .common-doctor figure {
-    overflow: hidden;
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
-.home-doctors .common-doctor h5 {
-    margin: 0 0 20px;
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
-.home-doctors .common-doctor .for-border {
-    margin-bottom: 20px;
-}
-.home-doctors .common-doctor .text-content {
-    padding: 20px 15px 30px;
-}
-.home-doctors.doctors-var-two {
-    text-align: left;
-    background-color: #fff;
-}
-.home-doctors.doctors-var-two .slogan-section {
-    text-align: left;
-}
-.home-doctors.doctors-var-two .common-doctor {
-    background-color: transparent;
-}
-.home-doctors.doctors-var-two .common-doctor .for-border {
-    display: none;
-}
-.home-doctors.doctors-var-two .common-doctor .text-content {
-    padding: 20px 0 20px;
-}
-.home-doctors.doctors-var-two .text-center {
-    text-align: left;
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
